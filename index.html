@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <link href="css/styles.css" ref="stylesheet" type="text/css">
+    <title>Transportation Survey</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Transportation Survey</h2>
+      </div>
+      <form id="stresssurvey">
+        <div class="form-group">
+          <p>In the past year, I have had the following warning signs:</p>
+          <input type="checkbox" name="warning-signs" value="sleep"> Loss of Sleep.<br>
+          <input type="checkbox" name="warning-signs" value="overwhelmed">Feeling overwhelmed.<br>
+          <input type="checkbox" name="warning-signs" value="sweating">Sweating.<br>
+          <input type="checkbox" name="warning-signs" value="diet">Change in diet.<br>
+          <input type="checkbox" name="warning-signs" value="bus">Riding the bus.<br>
+
+
+          <p>In the past year, I have had the following health symptons:</p>
+          <input type="checkbox" name="health-symptoms" value="blood">High blood pressure.<br>
+          <input type="checkbox" name="health-symptoms" value="anxiety">Anxiety.<br>
+          <input type="checkbox" name="health-symptoms" value="twitch">Eye twitch.<br>
+          <input type="checkbox" name="health-symptoms" value="palpatations">Heart palpatations.<br>
+          <input type="checkbox" name="health-symptoms" value="addiction">Addiction to narcotics (or oreos).<br>
+
+
+          <p>In the past year, I have used the following coping methods:</p>
+          <input type="checkbox" name="coping-methods" value="meditate">Meditate.<br>
+          <input type="checkbox" name="coping-methods" value="time">TIme management.<br>
+          <input type="checkbox" name="coping-methods" value="cat">Pet a cat.<br>
+          <input type="checkbox" name="coping-methods" value="vacation">Go on vacation.<br>
+          <input type="checkbox" name="coping-methods" value="spa">Go to a spa or relaxing location.<br>
+
+
+        </div>
+
+
+
+       <button type="submit">Submit Survey</button>
+      </form>
+      <span id="warning-signs">
+        <p><b>You have the following warning signs:</b></p>
+      </span>
+
+      <span id="health-symptoms">
+        <p><b>You have the following health symptoms</b></p>
+      </span>
+
+      <span id="coping-methods">
+        <p><b>You have the following coping methods</b></p>
+      </span>
+
+      <span id="recommendations">
+        <p><b>Recommendations for you:</b></p>
+      </span>
+
+
+    </div>
+  </body>
+</html>
